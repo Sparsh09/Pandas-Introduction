@@ -11,18 +11,18 @@ There are two types of datatypes that pandas have
 - Series
     - These are basically 1-Dimmensional . To create a series we need to give a list
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1815768-a670-44cc-b141-4b933c8d10df/Untitled.png)
+        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c1815768-a670-44cc-b141-4b933c8d10df/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211007T142824Z&X-Amz-Expires=86400&X-Amz-Signature=6461fda5ed1b25fa2a4739d106751cd1a772cf3b24660abddeb8006aead46322&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
         
     - This is the resulting output of the series
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d886660-272a-4035-8d91-f4f760e5aea6/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/228d907a-5cb7-43bb-b61b-dc3a26081078/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211007T142859Z&X-Amz-Expires=86400&X-Amz-Signature=a760c1a878b68976edcd58bc3a40ad9c8ce0e35342709a647471745a2999c964&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
     
 - DataFrame
     - These are 2-dimmensional . These contains columns and are far more common than the series .
         
         For creating data frames we need to give the dictionary as input . We can also give series as the value as given below .
         
-        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c1815768-a670-44cc-b141-4b933c8d10df/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211007T142208Z&X-Amz-Expires=86400&X-Amz-Signature=d8e86d3aa135940d074138f0b1db4d41f9c2846cbc1847240f438df2264e0210&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1e3684d2-f7c1-4644-8998-8bfbcafae989/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211007T142938Z&X-Amz-Expires=86400&X-Amz-Signature=c075d8b342aa96385c7da82439b9e8e8167259435942b184500d1e2b166e6cc0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
         
     - Resulting output for an dataframe
         
@@ -95,10 +95,10 @@ Important Commands in Pandas
     
     iloc → refers to the position of the object in the series or dataframe 
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/21d388e3-482e-407a-8c48-25fd4be21482/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/21d388e3-482e-407a-8c48-25fd4be21482/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211007T142720Z&X-Amz-Expires=86400&X-Amz-Signature=441f24babbcc8352de91a59bbf82991367bf2e65cbc20e8eb69e5319c8195ab7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
     
 - car_dataset.groupby(car_dataset.Make)
     
     This is used for grouping the datframe by a particular column and then calculating results according to it.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f018c19-63a0-4587-ab91-ef01222832cd/Untitled.png)
+    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9f018c19-63a0-4587-ab91-ef01222832cd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211007%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211007T142804Z&X-Amz-Expires=86400&X-Amz-Signature=62fcadf6d234bf9c154c9e3a6d821bd2ab4acf84a9e461da7f98d70ae21b38a0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
